@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#20120f">
+  <meta name="description" content="Mis Arepitas Salseras: arepas rellenas, combos y mucho sabor. Conoce nuestra carta, nuestras sedes y pide por WhatsApp.">
+  <meta property="og:title" content="Mis Arepitas Salseras | Donde el sazón tiene swing">
+  <meta property="og:description" content="Las mejores arepas se disfrutan con sabor y ritmo. Explora el menú y pide por WhatsApp.">
+  <meta property="og:image" content="assets/arepa-principal.jpg">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+  <title>Mis Arepitas Salseras | Sazón con swing</title>
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M4.5 8h15l-1 12h-13l-1-12Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20.7 11.7A8.7 8.7 0 0 1 7.8 19.4L3.5 20.5l1.2-4A8.7 8.7 0 1 1 20.7 11.7Z"/><path d="M8.4 8.1c.2-.5.4-.5.8-.5h.6c.2 0 .4 0 .5.4l.7 1.7c.1.3.1.5-.1.7l-.5.6c.6 1.1 1.5 2 2.6 2.6l.7-.8c.2-.2.4-.2.7-.1l1.6.7c.3.1.5.3.4.6-.2 1.5-1.2 1.8-2.2 1.6-2.9-.7-5.5-3.2-6.3-6.1-.2-.8 0-1.7.5-1.9Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".7" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+  </svg>
+
+  <div class="topline"><div class="container topline-inner"><span>Desde 2014, poniéndole sabor al sur</span><span>Pedidos a domicilio desde $15.000</span></div></div>
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a href="#inicio" class="brand" aria-label="Mis Arepitas Salseras, volver al inicio">
+        <img src="assets/logo.png" alt="Logo de Mis Arepitas Salseras" width="58" height="58">
+        <span class="brand-type"><strong>MIS AREPITAS</strong><span>SALSERAS</span></span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#historia">Nosotros</a><a href="#menu">Nuestra carta</a><a href="#destacadas">Favoritas</a><a href="#sedes">Sedes</a>
+        <a class="mobile-whatsapp" href="https://wa.me/573138205676" target="_blank" rel="noopener noreferrer">Escríbenos por WhatsApp</a>
+      </div>
+      <div class="nav-actions">
+        <button class="nav-order" id="nav-order" type="button" aria-label="Abrir mi pedido"><svg class="line-icon"><use href="#i-bag"/></svg><span>Mi pedido</span><b id="cart-count" class="cart-count" hidden>0</b></button>
+        <a href="#menu" class="button button-primary nav-cta">Ver menú</a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Abrir menú" aria-controls="nav-links" aria-expanded="false"><svg class="line-icon"><use href="#i-menu"/></svg></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-decor hero-decor-one"></div><div class="hero-decor hero-decor-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow eyebrow-light"><span class="soundbars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span> EL SABOR TIENE SWING</div>
+          <h1 id="hero-title">Aquí la arepa<br><em>se baila</em><br>con estilo<span class="title-period">.</span></h1>
+          <p>Rellenas de sabor, generosas por dentro y hechas para disfrutar. Vive la experiencia salsera, bocado a bocado.</p>
+          <div class="hero-actions"><a class="button button-primary button-lg" href="#menu">Explorar la carta</a><a class="button button-outline button-lg" href="#sedes">Conoce nuestras sedes</a></div>
+          <div class="hero-legacy"><span class="legacy-year">2014</span><span>Más de una década<br>de sazón y sabor</span></div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-rings" aria-hidden="true"></div>
+          <div class="hero-photo" role="img" aria-label="Arepa rellena de carne, chorizo, maíz y chicharrón, fotografía de Mis Arepitas Salseras"></div>
+          <div class="hero-badge"><span>100%</span><small>ACTITUD<br>SALSERA</small></div>
+          <div class="music-stamp" aria-hidden="true">♪ <span>¡Qué sabor!</span></div>
+        </div>
+      </div>
+      <div class="hero-scroll-note" aria-hidden="true"><span>DESCUBRE EL SABOR</span><i></i></div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>AREPAS RELLENAS</span><b>✳</b><span>SABOR SALSERO</span><b>✳</b><span>HECHAS CON AMOR</span><b>✳</b><span>AREPAS RELLENAS</span><b>✳</b><span>SABOR SALSERO</span><b>✳</b><span>HECHAS CON AMOR</span><b>✳</b></div></div>
+
+    <section class="story section" id="historia">
+      <div class="container story-grid">
+        <div class="story-visual reveal"><div class="story-photo" role="img" aria-label="Arepa rellena de Mis Arepitas Salseras"></div><div class="story-label">HECHAS PARA ENAMORAR AL PALADAR</div></div>
+        <div class="story-copy reveal"><span class="eyebrow">LA HISTORIA DETRÁS DEL SABOR</span><h2>La buena comida<br>también tiene <em>ritmo.</em></h2><p>Desde 2014, en Mis Arepitas Salseras combinamos dos cosas que nos encantan: una arepa bien rellena y la alegría de la salsa.</p><p>De las clásicas que nunca fallan a nuestras combinaciones más atrevidas, cada receta tiene su propia personalidad. Tú pones el hambre; nosotros, el sazón.</p><a href="#menu" class="text-link">Encuentra tu arepa favorita <span aria-hidden="true">—</span></a><div class="story-facts"><div><strong>2014</strong><small>El año en que comenzó todo</small></div><div><strong>3</strong><small>Sedes para encontrarnos</small></div><div><strong>+40</strong><small>Opciones para elegir</small></div></div></div>
+      </div>
+    </section>
+
+    <section class="featured section" id="destacadas">
+      <div class="container"><div class="section-heading reveal"><div><span class="eyebrow">LAS QUE MÁS ANTOJAN</span><h2>Hay un ritmo<br>para <em>cada antojo.</em></h2></div><p>De los sabores más clásicos a las mezclas que se roban el show. Estas son algunas de nuestras favoritas.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card feature-one reveal"><div class="feature-photo feature-img-one"></div><div class="feature-shade"></div><div class="feature-content"><span class="feature-tag">TODO UN CLÁSICO</span><h3>La Fania</h3><p>Mucho sabor en una sola arepa.</p><button class="feature-link" type="button" data-focus-product="fania">Conócela <span aria-hidden="true">+</span></button></div></article>
+          <article class="feature-card feature-two reveal"><div class="feature-photo feature-img-two"></div><div class="feature-shade"></div><div class="feature-content"><span class="feature-tag">PURO SABOR</span><h3>Guaguancó</h3><p>Una combinación que lleva el ritmo por dentro.</p><button class="feature-link" type="button" data-focus-product="guaguanco">Conócela <span aria-hidden="true">+</span></button></div></article>
+          <article class="feature-card feature-three reveal"><div class="feature-photo feature-img-three"></div><div class="feature-shade"></div><div class="feature-content"><span class="feature-tag">PARA COMPARTIR</span><h3>El Gran Combo</h3><p>Tres arepas y una gaseosa para armar el parche.</p><button class="feature-link" type="button" data-focus-product="gran-combo">Conócelo <span aria-hidden="true">+</span></button></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="menu-head reveal"><div><span class="eyebrow">PARA TODOS LOS GUSTOS</span><h2 id="menu-title">Nuestra <em>carta.</em></h2><p>Elige tu ritmo y arma tu pedido. Todos los precios están en pesos colombianos.</p></div><div class="menu-ornament" aria-hidden="true">SABOR<br><span>&</span> SWING</div></div>
+        <div class="menu-toolbar"><div class="menu-filters" id="menu-filters" role="group" aria-label="Filtrar menú"><button class="filter-pill is-active" type="button" data-category="all" aria-pressed="true">Todo el menú</button></div><label class="searchbox"><svg class="line-icon"><use href="#i-search"/></svg><input id="menu-search" type="search" placeholder="¿Qué se te antoja?" autocomplete="off" aria-label="Buscar en el menú"></label></div>
+        <div class="menu-meta"><span id="menu-results" aria-live="polite">Cargando nuestra carta...</span><span>Precios sujetos a cambios</span></div>
+        <div id="menu-grid" class="menu-grid" aria-live="polite"></div>
+        <div id="menu-empty" class="menu-empty" hidden><h3>No encontramos ese sabor</h3><p>Prueba buscando otro nombre o ingrediente.</p><button class="button button-primary" id="clear-filters" type="button">Ver todo el menú</button></div>
+        <div class="menu-endnote"><svg class="line-icon"><use href="#i-check"/></svg> Agrega tus favoritas a tu pedido y envíanoslo por WhatsApp para confirmar disponibilidad y entrega.</div>
+      </div>
+    </section>
+
+    <section class="statement"><div class="container statement-inner"><span class="eyebrow eyebrow-light">LA ACTITUD ES PARTE DE LA RECETA</span><h2>La salsa no solo se baila.<br><em>¡También se come!</em></h2><a class="button button-primary button-lg" href="#menu">Elige tu sabor</a></div><div class="statement-note" aria-hidden="true">♫</div></section>
+
+    <section class="locations section" id="sedes"><div class="container"><div class="section-heading section-heading-narrow reveal"><div><span class="eyebrow">VEN A VISITARNOS</span><h2>Tres lugares.<br>El mismo <em>sazón.</em></h2></div><p>Acércate a la sede que más te convenga o escríbenos para consultar domicilios.</p></div><div class="location-grid"><article class="location-card reveal"><span class="location-number">SEDE 01</span><div class="location-icon"><svg class="line-icon"><use href="#i-pin"/></svg></div><h3>Avenida Calle 30</h3><p>Av. calle 30 #2-58 este</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+calle+30+%232-58+este+Colombia" target="_blank" rel="noopener noreferrer" class="location-link">Ver ubicación</a></article><article class="location-card reveal"><span class="location-number">SEDE 02</span><div class="location-icon"><svg class="line-icon"><use href="#i-pin"/></svg></div><h3>Carrera 9 Este</h3><p>Carrera 9 este #31-63</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Carrera+9+este+%2331-63+Colombia" target="_blank" rel="noopener noreferrer" class="location-link">Ver ubicación</a></article><article class="location-card reveal"><span class="location-number">SEDE 03</span><div class="location-icon"><svg class="line-icon"><use href="#i-pin"/></svg></div><h3>Calle 33</h3><p>Calle 33 #0-144</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Calle+33+%230-144+Colombia" target="_blank" rel="noopener noreferrer" class="location-link">Ver ubicación</a></article></div></div></section>
+
+    <section class="contact-section" id="contacto"><div class="container contact-grid"><div><span class="eyebrow eyebrow-light">¿SE TE ANTOJÓ UNA?</span><h2>El próximo<br>mordisco <em>es tuyo.</em></h2><p>Escríbenos, consulta disponibilidad y pide tu arepa favorita. Domicilios desde $15.000 en productos; cobertura y costo de entrega por confirmar.</p><div class="contact-buttons"><a href="https://wa.me/573138205676" target="_blank" rel="noopener noreferrer" class="button button-whatsapp"><svg class="line-icon"><use href="#i-whatsapp"/></svg> 313 820 5676</a><a href="https://wa.me/573175087392" target="_blank" rel="noopener noreferrer" class="button button-quiet"><svg class="line-icon"><use href="#i-whatsapp"/></svg> 317 508 7392</a><a href="https://wa.me/573502054200" target="_blank" rel="noopener noreferrer" class="contact-third">También: 350 205 4200</a></div></div><div class="contact-art"><img src="assets/logo.png" alt="Logo Mis Arepitas Salseras"><span>¡PONLE SABOR<br>Y PONLE RITMO!</span></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-top"><a href="#inicio" class="footer-brand"><img src="assets/logo.png" alt="" width="65" height="65"><span>Mis Arepitas<br><b>Salseras</b></span></a><div class="footer-links"><a href="#historia">Nosotros</a><a href="#menu">Menú</a><a href="#sedes">Sedes</a><a href="#contacto">Contacto</a></div><a class="social-link" href="https://www.instagram.com/misarepitasalseras/" target="_blank" rel="noopener noreferrer" aria-label="Visitar Instagram de Mis Arepitas Salseras"><svg class="line-icon"><use href="#i-instagram"/></svg><span>@misarepitasalseras</span></a></div><div class="container footer-bottom"><span>© <span id="year">2026</span> Mis Arepitas Salseras. Hecho con sabor desde 2014.</span><a href="admin.html" rel="nofollow">Administrar carta</a></div></footer>
+
+  <div class="cart-overlay" id="cart-overlay" hidden></div>
+  <aside class="cart-panel" id="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true" tabindex="-1"><div class="cart-header"><div><span class="eyebrow">EL PEDIDO MÁS SABROSO</span><h2 id="cart-title">Tu pedido</h2></div><button class="icon-button" id="cart-close" type="button" aria-label="Cerrar pedido"><svg class="line-icon"><use href="#i-close"/></svg></button></div><div class="cart-content" id="cart-items"></div><div class="cart-footer"><div class="cart-subtotal"><span>Subtotal de productos</span><strong id="cart-total">$0</strong></div><p>El valor final, la disponibilidad y el domicilio se confirman por WhatsApp.</p><label class="cart-note-label" for="cart-note">Indicaciones para el pedido</label><textarea id="cart-note" rows="2" placeholder="Ej. Sin cebolla, recoger en la sede..." maxlength="250"></textarea><label class="cart-note-label" for="cart-phone">Enviar pedido a</label><select id="cart-phone"><option value="573138205676">313 820 5676</option><option value="573175087392">317 508 7392</option><option value="573502054200">350 205 4200</option></select><a class="button button-whatsapp button-checkout" id="cart-checkout" href="https://wa.me/573138205676" target="_blank" rel="noopener noreferrer"><svg class="line-icon"><use href="#i-whatsapp"/></svg> Enviar por WhatsApp</a></div></aside>
+  <button class="floating-cart" id="floating-cart" type="button" aria-label="Ver mi pedido"><svg class="line-icon"><use href="#i-bag"/></svg><span id="floating-count">0</span></button>
+</body>
+</html>
